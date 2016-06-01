@@ -1,15 +1,10 @@
-
-console.log("prima")
 $(document).ready( function(){
-  console.log("redy");
   $("#contact-send").click(function(){
-      console.log("chiamatao");
       var data  ={
         mail: $("#contact-mail").val(),
         body: $("#contact-body").val()
       };
       console.log(data);
-
 
       if(data.body && data.mail && isValidEmailAddress(data.mail)){
           $("#contact-form").hide();
@@ -20,8 +15,7 @@ $(document).ready( function(){
               console.log("Mail inviata")
               $("#contact-loading").hide();
               $("#contact-response").show();
-            }
-            else {
+            } else {
               $("#contact-loading").show();
                 $("#contact-form").show();
                 $('#contact-error').text('Si è verificato un errore')
@@ -37,6 +31,6 @@ $(document).ready( function(){
 
 
 function isValidEmailAddress(emailAddress) {
-        var pattern = new RegExp(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/);
-        return pattern.test(emailAddress);
-    };
+  var pattern = new RegExp(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/);
+  return pattern.test(emailAddress);
+};
