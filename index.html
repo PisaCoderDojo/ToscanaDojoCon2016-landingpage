@@ -211,7 +211,7 @@
 						<div class="speaker-row clearfix">
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/AntonioCisternino.jpg" alt="" />
+									<img src="img/talker/antoniocisternino.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Antonio Cisternino</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -225,7 +225,7 @@
 							</div>
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/AnnaMariani.jpg" alt="" />
+									<img src="img/talker/annamariani.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Anna Mariani</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -239,13 +239,10 @@
 							</div>
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/AntonioRizzo.jpg" alt="" />
+									<img src="img/talker/antoniorizzo.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Antonio Rizzo</h2>
-										<!-- <p><a href="#">Scopri di più</a></p> -->
 										<ul>
-											<!-- <li><a href="#" class="facebook">Facebook</a></li>
-													<li><a href="#" class="twitter">twitter</a></li> -->
 											<li><a href="http://rizzo.media.unisi.it" class="dribbble" target="_blank">dribbble</a></li>
 										</ul>
 									</div>
@@ -255,7 +252,7 @@
 						<div class="speaker-row clearfix">
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/roberto_grossi.jpg" alt="" />
+									<img src="img/talker/robertogrossi.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Roberto Grossi</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -270,7 +267,7 @@
 							<!-- <div class="speaker-col"><a href="#"><img src="assets/svg/moderator.svg" alt="" class="svg moderator" /></a></div> -->
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/StefanoGiordano.jpg" alt="" />
+									<img src="img/talker/stefanogiordano.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Stefano Giordano</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -284,7 +281,7 @@
 							</div>
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/dariacoppola.jpg" alt="" />
+									<img src="img/talker/dariacoppola.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Daria Coppola</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -301,7 +298,7 @@
 						<div class="speaker-row clearfix">
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/dariacoppola.jpg" alt="" />
+									<img src="img/talker/paoloferragina.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Paolo Ferragina</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -315,7 +312,7 @@
 							</div>
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/dariacoppola.jpg" alt="" />
+									<img src="img/talker/.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Giuseppe Augiero</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -329,7 +326,7 @@
 							</div>
 							<div class="speaker-col">
 								<div class="view view-sixth">
-									<img src="assets/images/dariacoppola.jpg" alt="" />
+									<img src="img/talker/nicolacorti.jpg" alt="" />
 									<div class="mask flippedcontent">
 										<h2>Nicola Corti</h2>
 										<!-- <p><a href="#">Scopri di più</a></p> -->
@@ -367,24 +364,38 @@
 				<br/>
 				<div class="event-table-section">
 					<div class="table-row head clearfix">
-
 						<ul>
-							<li><font color="black" !important>Programma</font></li>
-							<li><font color="black" !important>Ecco cosa ci sarà</font></li>
+							<li><font color="black" !important>Orario</font></li>
+							<li><font color="black" !important>Attività</font></li>
 						</ul>
 					</div>
-					<div class="table-row clearfix">
+					<script id="event-table-template" type="x-tmpl-mustache">
+						{{#rows}}
+						<div class="table-row clearfix">
+							<ul>
+								<li>{{time.in}} - {{time.end}}</li>
+								<li>{{activity}}</li>
+								<li class="more">
+									<i {{^text}}style="background: none !important;"{{/text}}>&nbsp;</i>
+								</li>
+							</ul>
+							<div class="more-text">{{text}}</div>
+						</div>
+						{{/rows}}
+					</script>
+					<div id="event-table-target"></div>
+
+					<!-- <div class="table-row clearfix">
 						<ul>
-							<li>9.00 - 9.40 </li>
-							<li>Presentazione di Coder Dojo con Istituzioni e Rappresentati</li>
+							<li>9.00 - 9.30 </li>
+							<li>Registrazione e accoglienza dei partecipanti.</li>
 							<li class="more"><i>&nbsp;</i></li>
 						</ul>
-						<div class="more-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-							dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						<div class="more-text">Nicola Corti e Gianni Modica</div>
 					</div>
 					<div class="table-row alt clearfix">
 						<ul>
-							<li>9.40 - 11.00 </li>
+							<li>9.30 - 9.00 </li>
 							<li>Keynote </li>
 							<li class="more"><i>&nbsp;</i></li>
 						</ul>
@@ -408,7 +419,7 @@
 						</ul>
 						<div class="more-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
 							dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
@@ -460,7 +471,7 @@
 									<textarea placeholder="Type your message" class="formcontrol"></textarea>
 								</div>
 								<div class="row none">
-									<input type="submit" value="Send Message" class="formbtn" />
+									<input value="Send Message" class="formbtn" />
 								</div>
 							</form>
 						</div>
@@ -501,6 +512,7 @@
 	<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="assets/js/mustache.min.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 </body>
 
