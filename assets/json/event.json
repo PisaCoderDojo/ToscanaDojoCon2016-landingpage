@@ -4,19 +4,19 @@
             "in": "9:00",
             "end": "9:30"
         },
-        "activity": "Registrazione e accoglienza dei partecipanti."
+        "activity": "Registrazione e accoglienza dei partecipanti"
     }, {
         "time": {
             "in": "9:30",
             "end": "9:40"
         },
-        "activity": "Saluti insituzionali."
+        "activity": "Saluti istituzionali"
     }, {
         "time": {
             "in": "9:40",
             "end": "10:00"
         },
-        "activity": "Keynote: \"Dal Dojo al DojoCon: passione, didattica e codice.\"",
+        "activity": "Keynote: \"Dal Dojo al DojoCon: passione, didattica e codice\"",
         "text": "Pisa CoderDojo e Anna Mariani"
     }, {
         "time": {
@@ -30,7 +30,7 @@
             "in": "10:20",
             "end": "10:40"
         },
-        "activity": "Talk: \"Go by examples: dagli esempi al codice\"",
+        "activity": "Talk: \"Go by example: dagli esempi al codice\"",
         "text": "Nicola Corti e Gianni Modica"
     }, {
         "time": {
@@ -57,7 +57,7 @@
             "in": "11:40",
             "end": "12:00"
         },
-        "activity": "Talk: \"Il problem solving dalle olimpiadi di informatica al Dojo\"",
+        "activity": "Talk: \"Il problem solving dalle Olimpiadi di Informatica al Dojo\"",
         "text": "Roberto Grossi"
     }, {
         "time": {
@@ -71,7 +71,7 @@
             "in": "12:20",
             "end": "12:40"
         },
-        "activity": "Talk: \"Il mobile e l’insegnamento: che cosa, come, funziona?\"",
+        "activity": "Talk: \"Il mobile e l’insegnamento: che cosa? Come? Funziona?\"",
         "text": "Daria Coppola"
     }, {
         "time": {
@@ -91,7 +91,7 @@
             "in": "14:00",
             "end": "16:30"
         },
-        "activity": "Workshop di 30' minuti su metodologie e tecniche didattiche (a rotazione)",
+        "activity": "Workshop di 30 minuti su metodologie e tecniche didattiche (a rotazione)",
         "text": "Tutti i Dojo toscani e organizzazione"
     }]
 }
