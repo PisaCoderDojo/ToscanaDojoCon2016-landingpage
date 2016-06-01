@@ -216,6 +216,7 @@ body {
 .header-inner{
 	max-width: 1030px;
 	margin: 0 auto;
+	height: 46px;
 }
 .hamburger-header{
 	background: #222323;
@@ -234,6 +235,7 @@ h1{
 }
 h1 .logo{
 	display: block;
+	margin-top: 5px;
 }
 .logo-text{
 	display: block;
@@ -261,7 +263,7 @@ h1 .logo{
 #header nav li a{
 	color: #ffffff;
 	font-size: 1.5em;
-	font-weight: 100;
+	/*font-weight: 100;*/
 	text-transform: uppercase;
 }
 
