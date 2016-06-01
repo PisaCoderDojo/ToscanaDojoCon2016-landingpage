@@ -463,17 +463,32 @@
 							<div class="btnwrap map-view"><a href="#" class="formbtn">View Map</a></div>
 						</div>
 						<div class="contact-us">
-							<form>
+
+							<form id="contact-form" >
 								<div  class="row">
 									<input  id="contact-mail" type="mail" placeholder="Enter your email" class="formcontrol" />
 								</div>
 								<div class="row">
 									<textarea  id="contact-body" placeholder="Type your message" class="formcontrol"></textarea>
 								</div>
+								<div id="contact-error" >
+ 							 </div>
 								<div id="contact-send" class="row none">
 									<input value="Send Message" class="formbtn" />
 								</div>
 							</form>
+
+
+							<div id="contact-loading" hidden="true">
+								<img src="img/loading.gif" />
+							</div>
+
+
+							<div id="contact-response" hidden="true">
+								<img src="img/success.png" />
+								 Email inviata con successo
+							</div>
+
 						</div>
 					</div>
 				</div>
