@@ -3,7 +3,7 @@
         background-image: url(../images/pisa2.jpg);
         background-attachment: scroll;
     }
-    .sponsor {
+    .partner {
         /* background-image: url(../images/bg.jpg); */
         background-attachment: scroll;
     }
@@ -170,13 +170,13 @@
         padding-right: 0;
         margin-top: 30px;
     }
-    .contact-info, .past-event-top, .event-wrap, .speaker p, .reward-section, .sponsor, .welcome-inner, .event-table-section {
+    .contact-info, .past-event-top, .event-wrap, .speaker p, .reward-section, .partner, .welcome-inner, .event-table-section {
         margin: 0 0 50px 0;
     }
-    .sponsor li {
+    .partner li {
         padding: 0 10px;
     }
-    .sponsor li img, .speaker p {
+    .partner li img, .speaker p {
         width: 100%;
     }
     .speaker-inner {
@@ -376,12 +376,12 @@
         height: auto;
         min-height: auto;
     }
-    .sponsor-inner {
+    .partner-inner {
         padding-top: 58px;
     }
-    #menu-sponsors {
+    /*#menu-sponsors {
         min-height: 600px;
-    }
+    }*/
     .elite-content {
         padding-top: 78px;
     }
@@ -389,7 +389,7 @@
         height: 68px;
         bottom: -62px;
     }
-    .contact-info, .past-event-top, .event-wrap, .speaker p, .reward-section, .sponsor, .welcome-inner, .event-table-section {
+    .contact-info, .past-event-top, .event-wrap, .speaker p, .reward-section, .partner, .welcome-inner, .event-table-section {
         margin: 0;
     }
     .btnwrap {

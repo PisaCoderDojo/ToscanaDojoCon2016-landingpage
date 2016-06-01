@@ -405,7 +405,7 @@ svg.contact {
  ----------------------------------------------*/
 
 
-/*.reward-section, .sponsor{
+/*.reward-section, .partner{
 	position: relative;
 	height: 700px;
 	background: #ffffff url(../images/reward-bg.jpg) left top no-repeat;
@@ -461,7 +461,7 @@ svg.contact {
     padding-bottom: 28px;
 }
 .speaker p {
-    width: 60%;
+    /*width: 60%;*/
     margin-bottom: 62px;
 }
 .speaker-col {
@@ -700,34 +700,34 @@ svg.contact {
  ----------------------------------------------*/
 
 
-/*.sponsor{
-	background-image: url(../images/sponsor-bg.jpg);
+/*.partner{
+	background-image: url(../images/partner-bg.jpg);
 	padding-bottom: 0;
 	height: 700px;
 	position: relative;
 }*/
 
-.sponsor-inner {
+.partner-inner {
     text-align: center;
     padding-top: 50px;
     /* ---------  SPAZIO SOPRA LA SCRITTA SPONSOR ----------- */
     padding-bottom: 50px;
     /*  -----------SPAZIOE SOTTO LA SCRITTA SPONSOR ---------*/
 }
-.sponsor h2 {
+.partner h2 {
     color: #ffffff;
 }
-.sponsor p {
+.partner p {
     color: #ffffff;
     margin: 0 auto;
     width: 95%;
     margin-bottom: 20px;
 }
-.sponsor ul {
+.partner ul {
     display: table;
     width: 100%;
 }
-.sponsor li {
+.partner li {
     display: table-cell;
     vertical-align: middle;
     margin-right: 3.8%;
@@ -745,9 +745,11 @@ svg.contact {
     padding-top: 110px;
 }
 .past-event-top {
-    padding: 0 100px;
-    width: 68%;
-    margin-bottom: 100px;
+    /* padding: 0 100px; */
+    /* width: 68%; */
+    margin-bottom: 30px;
+    padding-top: 40px;
+    text-align: justify;
 }
 .event-wrap {
     margin-bottom: 98px;
@@ -948,7 +950,7 @@ svg.bounce-image {
     background-image: url(../images/pisa2-small.jpg);
 }
 
-/*.sponsor{
+/*.partner{
 	background-image: url(../images/bg.jpg);
 } */
 
@@ -993,12 +995,10 @@ svg.bounce-image {
     font-weight: bold;
     color: black;
 }
-
 .mapmarker > i {
     font-size: 35px;
     color: #4FC3F7;
 }
-
 .past-event-col {
     background: #4fc3f7;
     transition: all 0.5s linear;

@@ -98,20 +98,20 @@ $('#header nav li').click(function(){
 
 
 	$(window).load(function() {
-		$('html,body').animate({
-			scrollTop : 0
-		}, 50);
+		// $('html,body').animate({
+		// 	scrollTop : 0
+		// }, 50);
 		$('#header nav li').removeClass('active');
 
 
-		$('.flexslider').flexslider({
-			animation : "fade",
-			easing : "swing",
-			animationSpeed : 1500,
-			slideshowSpeed : 10000,
-			controlNav : false,
-			directionNav : false
-		});
+		// $('.flexslider').flexslider({
+		// 	animation : "fade",
+		// 	easing : "swing",
+		// 	animationSpeed : 3500,
+		// 	slideshowSpeed : 10000,
+		// 	controlNav : false,
+		// 	directionNav : false
+		// });
 
 	});
 
