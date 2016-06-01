@@ -1,0 +1,97 @@
+{
+    "rows": [{
+        "time": {
+            "in": "9:00",
+            "end": "9:30"
+        },
+        "activity": "Registrazione e accoglienza dei partecipanti."
+    }, {
+        "time": {
+            "in": "9:30",
+            "end": "9:40"
+        },
+        "activity": "Saluti insituzionali."
+    }, {
+        "time": {
+            "in": "9:40",
+            "end": "10:00"
+        },
+        "activity": "Keynote: \"Dal Dojo al DojoCon: passione, didattica e codice.\"",
+        "text": "Pisa CoderDojo e Anna Mariani"
+    }, {
+        "time": {
+            "in": "10:00",
+            "end": "10:20"
+        },
+        "activity": "Talk: \"L’algoritmo prima del codice\"",
+        "text": "Paolo Ferragina"
+    }, {
+        "time": {
+            "in": "10:20",
+            "end": "10:40"
+        },
+        "activity": "Talk: \"Go by examples: dagli esempi al codice\"",
+        "text": "Nicola Corti e Gianni Modica"
+    }, {
+        "time": {
+            "in": "10:40",
+            "end": "11:00"
+        },
+        "activity": "Talk: \"UMI-SCI-ED: la  didattica adattativa dell’Internet con le cose\"",
+        "text": "Stefano Giordano"
+    }, {
+        "time": {
+            "in": "11:00",
+            "end": "11:20"
+        },
+        "activity": "Pausa Caffè"
+    }, {
+        "time": {
+            "in": "11:20",
+            "end": "11:40"
+        },
+        "activity": "Talk: \"UDOO: da Arezzo una board per insegnare a programmare\"",
+        "text": "Antonio Rizzo"
+    }, {
+        "time": {
+            "in": "11:40",
+            "end": "12:00"
+        },
+        "activity": "Talk: \"Il problem solving dalle olimpiadi di informatica al Dojo\"",
+        "text": "Roberto Grossi"
+    }, {
+        "time": {
+            "in": "12:00",
+            "end": "12:20"
+        },
+        "activity": "Talk: \"Programmare: divertimento e arte del fare\"",
+        "text": "Antonio Cisternino"
+    }, {
+        "time": {
+            "in": "12:20",
+            "end": "12:40"
+        },
+        "activity": "Talk: \"Il mobile e l’insegnamento: che cosa, come, funziona?\"",
+        "text": "Daria Coppola"
+    }, {
+        "time": {
+            "in": "12:40",
+            "end": "13:00"
+        },
+        "activity": "Talk: \"L’Open Source spiegato ai ragazzi\"",
+        "text": "Giuseppe Augiero"
+    }, {
+        "time": {
+            "in": "13:00",
+            "end": "14:00"
+        },
+        "activity": "Pranzo leggero"
+    }, {
+        "time": {
+            "in": "14:00",
+            "end": "16:30"
+        },
+        "activity": "Workshop di 30' minuti su metodologie e tecniche didattiche (a rotazione)",
+        "text": "Tutti i Dojo toscani e organizzazione"
+    }]
+}

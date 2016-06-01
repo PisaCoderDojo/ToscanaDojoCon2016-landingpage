@@ -38,11 +38,15 @@
     .timer-section {
         height: 158px;
     }
-
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .slides li > img {
         top: -200px !important;
+    }
+    h1 .logo {
+        display: block;
+        margin-top: 15px;
+        width: 160px;
     }
 
     h2 {
@@ -53,8 +57,9 @@
         padding: 0 10px;
     }
     #header nav li {
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 9px;
     }
     /*.timer-section{padding-left: 20px; padding-right: 20px; padding-bottom: 20px; margin-top: 15%; margin-bottom: 10px;}*/
     .countdown-section {
@@ -155,8 +160,6 @@
     .page {
         padding-top: 30px !important;
     }
-
-
     h2 {
         font-size: 3em;
         /*padding-top: 50px;*/
@@ -432,8 +435,6 @@ section#menu-event-detail:before {
     width: 299px;
     margin: 0 auto;
     height: 61px;
-}
-
 }
 @media only screen and (min-width:1601px) {
     .slides li > img {
