@@ -14,14 +14,22 @@
  12). Bouncer Top Section Styling
  -----------------------------------------------*/
 
-.coderdojo-retetoscana{
-
+.retetoscana {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: -webkit-center;
 }
-.coderdojo-retetoscana > h3{
-
+.retetoscana-img {
+    width: auto !important;
 }
-.coderdojo-retetoscana > ul > li{
 
+.retetoscana-dojo {
+    font-size: 15px;
+    padding: 5px 0 !important;
+    text-align: center;
+    font-weight: 500;
+    font-variant: small-caps;
 }
 
 p {
@@ -33,14 +41,12 @@ p {
     padding: 10px;
     text-align: center;
 }
-
 #contact-response, #contact-loading {
     text-align: center;
     text-align: -webkit-center;
     font-size: 14pt;
     padding: 20px;
 }
-
 #contact-response > img {
     width: 200px;
     display: block;
