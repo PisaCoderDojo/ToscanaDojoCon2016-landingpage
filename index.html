@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
+	<meta name="Description" content="Un'intera giornata destinata alla didattica della programmazione, fra Talk e workshop e eventi per bambini e ragazzi">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 	<title>Toscana DojoCon 2016 - Piazza dei Cavalieri, Pisa </title>
@@ -17,6 +19,42 @@
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
+
+	<script type="application/ld+json">
+		[{
+			"@context": "http://schema.org",
+			"@type": "EducationEvent",
+			"name": "Toscana DojoCon 2016",
+			"url": "http://toscanadojocon.coderdojo.it",
+			"image": "http://toscanadojocon.coderdojo.it/assets/images/cavalieri.jpg",
+			"description": "Un'intera giornata destinata alla didattica della programmazione, fra Talk e workshop e eventi per bambini e ragazzi",
+			"startDate": "2016-06-18T09:30",
+			"doorTime": "09:00",
+			"endDate": "2016-06-18T19:00",
+			"location": {
+				"@type": "Place",
+				"name": "Palazzo Boileau e Piazza dei Cavalieri",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "Via Santa Maria, 85",
+					"addressLocality": "Pisa",
+					"addressRegion": "Italy",
+					"addressCountry": "IT"
+				}
+			},
+			"offers": [{
+				"@type": "Offer",
+				"name": "Talk e workshop",
+				"price": "0",
+				"url": ""
+			}, {
+				"@type": "Offer",
+				"name": "Evento per bambini e ragazzi",
+				"price": "0",
+				"url": ""
+			}]
+		}]
+	</script>
 </head>
 
 <body>
@@ -442,16 +480,16 @@
 						</ul>
 
 						<div class="retetoscana">
-						<!-- <h3>CoderDojo Rete Toscana</h3> -->
-						<ul>
-							<li><img class="retetoscana-img" src="img/loghi/dojoretetoscana-small.png" alt="" /></li>
-						</ul>
-						<ul>
-							<li class="retetoscana-dojo">
-								Bagno a Ripoli - Empoli - Firenze - Grosseto - Lucca - Massa - Pisa - Prato - Sesto Fiorentino - Valdarno - Val D'Elsa
-							</li>
-						</ul>
-					</div>
+							<!-- <h3>CoderDojo Rete Toscana</h3> -->
+							<ul>
+								<li><img class="retetoscana-img" src="img/loghi/dojoretetoscana-small.png" alt="" /></li>
+							</ul>
+							<ul>
+								<li class="retetoscana-dojo">
+									Bagno a Ripoli - Empoli - Firenze - Grosseto - Lucca - Massa - Pisa - Prato - Sesto Fiorentino - Valdarno - Val D'Elsa
+								</li>
+							</ul>
+						</div>
 						<!-- <ul>
 							<li>
 								<a href="http://pisa.coderdojo.it" target="_blank"><img src="img/loghi/dojopisa.png" alt="" /></a>
@@ -597,15 +635,21 @@
 	<script type="text/javascript" src="assets/js/jquery.sendmail.js"></script>
 
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-7192458-8', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		ga('create', 'UA-7192458-8', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 
 </html>
