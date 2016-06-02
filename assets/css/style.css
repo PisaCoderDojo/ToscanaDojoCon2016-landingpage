@@ -23,7 +23,6 @@
 .retetoscana-img {
     width: auto !important;
 }
-
 .retetoscana-dojo {
     font-size: 15px;
     padding: 5px 0 !important;
@@ -31,7 +30,9 @@
     font-weight: 500;
     font-variant: small-caps;
 }
-
+.retetoscana-dojo > a {
+    color: #083d77;
+}
 p {
     font-size: 1.8em;
 }

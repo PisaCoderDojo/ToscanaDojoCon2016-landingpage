@@ -1,13 +1,8 @@
 $(document).ready(function(e) {
 
-
-    var template = $('#event-table-template').html();
-    Mustache.parse(template); // optional, speeds up future uses
     $.get('assets/json/event.json', function(data) {
-        console.log(data);
-        var rendered = Mustache.render(template, data);
+        var rendered = Mustache.render($('#event-table-template').html(), data);
         $('#event-table-target').html(rendered);
-
 
         $('li.more').each(function() {
             $(this).find('i').click(function() {
@@ -18,6 +13,14 @@ $(document).ready(function(e) {
 
     });
 
+    $.get('assets/json/dojo.json', function(data) {
+        data.dojo.sort(function(a, b) {
+            return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+        });
+        data.dojo[data.dojo.length - 1].last = true;
+        var rendered = Mustache.render($('#retetoscana-template').html(), data);
+        $('#retetoscana-target').html(rendered);
+    });
 
 
 
@@ -245,14 +248,16 @@ $(document).ready(function(e) {
                 parallax($(this), 0.1);
             })
         }
-    })
+    });
+
     $(window).scroll(function() {
         if ($('.parallax').length) {
             $('.parallax').each(function() {
                 parallax($(this), 0.1);
             })
         }
-    })
+    });
+
     $('.map-view').on('click', function() {
         $('.map-overlay').fadeOut();
         $('.back-btn').fadeIn();

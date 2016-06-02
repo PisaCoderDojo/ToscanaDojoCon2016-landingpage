@@ -485,8 +485,14 @@
 								<li><img class="retetoscana-img" src="img/loghi/dojoretetoscana-small.png" alt="" /></li>
 							</ul>
 							<ul>
-								<li class="retetoscana-dojo">
-									Bagno a Ripoli - Empoli - Firenze - Grosseto - Lucca - Massa - Pisa - Prato - Sesto Fiorentino - Valdarno - Val D'Elsa
+								<script id="retetoscana-template" type="x-tmpl-mustache">
+									{{#dojo}}
+									<a href="{{url}}" target="_blank">{{name}}</a>{{^last}} - {{/last}}
+									{{/dojo}}
+								</script>
+								<li id="retetoscana-target" class="retetoscana-dojo">
+									<!-- <a href="#">Bagno a Ripoli</a> -
+									Empoli - Firenze - Grosseto - Lucca - Massa - Pisa - Prato - Sesto Fiorentino - Valdarno - Val D'Elsa -->
 								</li>
 							</ul>
 						</div>

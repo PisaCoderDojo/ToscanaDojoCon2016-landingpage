@@ -1,0 +1,36 @@
+{
+    "dojo": [{
+        "name": "Bagno a Ripoli",
+        "url": "http://bagnoaripoli.coderdojo.it"
+    }, {
+        "name": "Empoli",
+        "url": "https://zen.coderdojo.com/dojo/it/empoli-metropolitan-city-of-florence/empoli-golem"
+    }, {
+        "name": "Firenze",
+        "url": "http://firenze.coderdojo.it/"
+    }, {
+        "name": "Grosseto",
+        "url": "http://coderdojo.workingclasshero.it/"
+    }, {
+        "name": "Lucca",
+        "url": "http://www.coderdojolucca.it/"
+    }, {
+        "name": "Massa Carrara",
+        "url": "https://www.facebook.com/mscoderdojo"
+    }, {
+        "name": "Pisa",
+        "url": "http://pisa.coderdojo.it/"
+    }, {
+        "name": "Prato",
+        "url": "http://prato.coderdojo.it/"
+    }, {
+        "name": "Sesto Fiorentino",
+        "url": "https://www.facebook.com/codsesto2.0/info/?tab=page_info"
+    }, {
+        "name": "Valdarno",
+        "url": "http://coderdojovaldarno.org/"
+    }, {
+        "name": "Val D'Elsa",
+        "url": ""
+    }]
+}
