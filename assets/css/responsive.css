@@ -48,7 +48,6 @@
         margin-top: 15px;
         width: 160px;
     }
-
     h2 {
         font-size: 4em;
     }
@@ -154,6 +153,12 @@
     }
 }
 @media all and (max-width: 767px) {
+    .retetoscana-img {
+        width: 40% !important;
+    }
+    .retetoscana-dojo {
+        font-size: 13px;
+    }
     .slides li > img {
         top: -420px !important;
     }
