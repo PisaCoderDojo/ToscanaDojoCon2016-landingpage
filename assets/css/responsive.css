@@ -32,9 +32,9 @@
     .intro-wrapper {
         position: static;
     }
-    #intro .page-sm {
+    /*#intro .page-sm {
         padding-top: 14%;
-    }
+    }*/
     .timer-section {
         height: 158px;
     }
@@ -66,6 +66,7 @@
     }
     .countdown-amount {
         font-size: 6em;
+        font-weight: normal;
     }
     .countdown-period {
         font-size: 1.5em;
@@ -153,6 +154,10 @@
     }
 }
 @media all and (max-width: 767px) {
+    .data {
+        margin-top: -20px;
+        font-size: 30px;
+    }
     .retetoscana-img {
         width: 40% !important;
     }
@@ -223,6 +228,8 @@
         width: 90%;
         height: 51px;
         margin-bottom: 16%;
+        border-radius: 10px;
+        border: solid 1.5px white;
     }
     .countdown-section {
         margin-right: 5%;
@@ -245,6 +252,7 @@
     .countdown-amount {
         font-size: 2em;
         margin-bottom: 5px;
+        font-weight: 400;
     }
     .countdown-period {
         font-size: 0.8em;

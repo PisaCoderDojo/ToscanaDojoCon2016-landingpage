@@ -1,6 +1,6 @@
 $(document).ready(function(e) {
 
-    $.get('assets/json/event.json', function(data) {
+    $.get('/json/event.json', function(data) {
         var rendered = Mustache.render($('#event-table-template').html(), data);
         $('#event-table-target').html(rendered);
 
@@ -13,7 +13,7 @@ $(document).ready(function(e) {
 
     });
 
-    $.get('assets/json/dojo.json', function(data) {
+    $.get('/json/dojo.json', function(data) {
         data.dojo.sort(function(a, b) {
             return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
         });
